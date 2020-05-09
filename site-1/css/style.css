@@ -646,7 +646,7 @@ div.filter {
 		padding-top: 60px;
 		opacity: 0.5;
 		transition: background-color 200ms linear,opacity 200ms linear;
-		color: #fff;
+		color: #000;
 	}
 	.button__back__text:hover {
 		text-decoration: none;
@@ -654,7 +654,7 @@ div.filter {
 	.button__back {
 		display: block;
 		height: 100%;
-		color: #fff;
+		color: #000;
 		font-size: 15.5px;
 		font-weight: 700;
 		-webkit-font-smoothing: antialiased;
