@@ -72,7 +72,6 @@ body {
 	font-size: 26px;
 }
 
-p.sample__title {}
 @media (min-width: 1601px) {
 	.container,
 	.container-lg,
