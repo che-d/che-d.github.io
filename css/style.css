@@ -73,7 +73,7 @@ body {
 }
 
 p.sample__title {}
-@media (min-width: 1440px) {
+@media (min-width: 1601px) {
 	.container,
 	.container-lg,
 	.container-md,
@@ -82,7 +82,7 @@ p.sample__title {}
 		max-width: 1368px;
 	}
 }
-@media (min-width: 1601px) {
+@media (min-width: 2048px) {
 	.container,
 	.container-lg,
 	.container-md,
@@ -91,12 +91,12 @@ p.sample__title {}
 		max-width: 1520px;
 	}
 }
-@media (min-width: 2048px) {
+@media (min-width: 4096px) {
 	.container,
 	.container-lg,
 	.container-md,
 	.container-sm,
 	.container-xl {
-		max-width: 1945px;
+		max-width: 2868px;
 	}
 }
