@@ -1,0 +1,103 @@
+@import url(../css/fonts.css);
+body {
+	cursor: default;
+	background: #f8b195;
+	background: -webkit-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	background: -o-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	background: linear-gradient(to top right, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b195', endColorstr='#72519b',GradientType=1 );
+	font-family: "BenderRegular";
+}
+.header {
+	text-align: center;
+	margin: 40px 0;
+}
+.header__title {
+	color: #fff;
+	font-family: "BenderBold";
+}
+.sample {
+	padding: 50px 0;
+}
+.sample__link {
+    text-align: center;
+    color: #fff;
+}
+.sample__link:hover .sample__wrap__title {
+    color: #fff;
+    display: block;
+}
+.sample__wrap {
+	text-align: center;
+	position: relative;
+	margin-bottom: 30px;
+	transition: .15s;
+	height: 240px;
+	overflow: hidden; 
+	border-radius: 25px;
+}
+.sample__wrap__hover {
+	transform: scale(1.1);
+	z-index: 1;
+	transition: transform .5s;
+}
+.sample__img {
+	width: 100%;
+}
+.box_sh_img__right {
+	box-shadow: 5px 0px 30px -5px rgba(0,0,0,0.7);
+}
+.box_sh_img__left {
+	box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.7);
+}
+.sample__wrap__title {
+	text-align: center;
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 20%;
+	bottom: 0;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	display: none;
+}
+.sample__title {
+	margin: 0;
+	padding-bottom: 15px;
+	font-family: "BenderRegular";
+	font-size: 26px;
+}
+
+p.sample__title {}
+@media (min-width: 1440px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1368px;
+	}
+}
+@media (min-width: 1600px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1520px;
+	}
+}
+@media (min-width: 2048px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1945px;
+	}
+}
