@@ -6,5 +6,5 @@ $(document).ready(function () {
 		$(this).removeClass('sample__wrap__hover');
 	});
 	$('#site2').height($('#site1').height());
-	$('#site2').height($('#site1').height());
+	$('#site3').height($('#site1').height());
 });
