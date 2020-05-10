@@ -720,6 +720,7 @@ section.contact {
 		width: 50px !important;
 		height: 50px!important;
 		cursor: pointer;
+		padding: 0;
 	}
 	.menu__item {
 		margin-left: 0;
