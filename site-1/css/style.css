@@ -633,7 +633,6 @@ div.filter {
 	#toBack {
 		width: 224px;
 		display: block;
-		opacity: 1;
 		z-index: 3;
 		position: fixed;
 		top: 0;
@@ -644,7 +643,7 @@ div.filter {
 		height: 100%;
 		width: 114px;
 		padding-top: 60px;
-		opacity: 0.5;
+		opacity: 1;
 		transition: background-color 200ms linear,opacity 200ms linear;
 		color: #000;
 	}
@@ -661,7 +660,7 @@ div.filter {
 		-moz-osx-font-smoothing: grayscale;
 		padding: 40px 20px;
 		transition: 1s;
-		opacity: 0.25;
+		opacity: 0;
 	}
 	.button__back__text:hover .button__back {
 		opacity: 0.5;
