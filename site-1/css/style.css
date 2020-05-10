@@ -635,6 +635,7 @@ div.filter {
 		display: block;
 		z-index: 3;
 		position: fixed;
+		opacity: 1;
 		top: 0;
 		bottom: 0;
 		left: 0;
@@ -659,8 +660,8 @@ div.filter {
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		padding: 40px 20px;
-		transition: 1s;
-		opacity: 0;
+		transition: .5s;
+		opacity: 0.25;
 	}
 	.button__back__text:hover .button__back {
 		opacity: 0.5;
