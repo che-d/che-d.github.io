@@ -401,6 +401,16 @@ div.filter {
 .contact_info a {
 	color: #e0e0e0;
 }
+#toBack {
+	width: 224px;
+	display: none;
+	z-index: 3;
+	position: fixed;
+	opacity: 1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
 /*footer*/
 .footer {
 	background-color: #313030;
@@ -630,16 +640,6 @@ div.filter {
 	}
 }
 @media screen and (min-width: 1024px) {
-	#toBack {
-		width: 224px;
-		display: none;
-		z-index: 3;
-		position: fixed;
-		opacity: 1;
-		top: 0;
-		bottom: 0;
-		left: 0;
-	}
 	.button__back__text {
 		height: 100%;
 		width: 114px;
