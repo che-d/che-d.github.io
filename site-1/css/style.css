@@ -632,7 +632,7 @@ div.filter {
 @media screen and (min-width: 1024px) {
 	#toBack {
 		width: 224px;
-		display: block;
+		display: none;
 		z-index: 3;
 		position: fixed;
 		opacity: 1;
