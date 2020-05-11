@@ -17,7 +17,9 @@ $(document).ready(function() {
 				$('.button[data-filter-1]').addClass('button_empty3');
 				$('.filter > div').slideUp(300);
 				let filter = $(this).attr('data-filter-1');
-				$('.filter > div[data-filter-1 = '+ filter +']').slideDown(600);
+				setTimeout(function() {
+					$('.filter > div[data-filter-1 = '+ filter +']').slideDown(600);
+				},400);
 			}
 		}
 	});
