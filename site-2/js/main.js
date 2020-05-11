@@ -19,7 +19,7 @@ $(document).ready(function() {
 				let filter = $(this).attr('data-filter-1');
 				setTimeout(function() {
 					$('.filter > div[data-filter-1 = '+ filter +']').slideDown(600);
-				},400);
+				},300);
 			}
 		}
 	});
