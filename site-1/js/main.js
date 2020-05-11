@@ -1,10 +1,10 @@
 $(document).ready(function() {
-	$('.product button[filter]').click(function (){
-		if($(this).attr('filter')=='all') {
-			if($(this).attr('val')=='off') {
-				$('.product button[filter]').attr('val','off');
-				$(this).attr('val','on');
-				$('.product button[filter]').removeClass('product_b_active');
+	$('.product button[data-filter1]').click(function (){
+		if($(this).attr('data-filter1')=='all') {
+			if($(this).attr('data-val')=='off') {
+				$('.product button[data-filter1]').attr('data-val','off');
+				$(this).attr('data-val','on');
+				$('.product button[data-filter1]').removeClass('product_b_active');
 				$(this).addClass('product_b_active');
 				$('.filter > div').slideUp(400);
 				setTimeout(function() {
@@ -12,16 +12,16 @@ $(document).ready(function() {
 				},400);
 			}
 		} else {
-			if($(this).attr('val')=='off') {
-				$('.product button[filter]').attr('val','off');
-				$(this).attr('val','on');
-				$('.product button[filter]').removeClass('product_b_active');
+			if($(this).attr('data-val')=='off') {
+				$('.product button[data-filter1]').attr('data-val','off');
+				$(this).attr('data-val','on');
+				$('.product button[data-filter1]').removeClass('product_b_active');
 				$(this).addClass('product_b_active');
-				$('.product button[filter]').addClass('product_b');
+				$('.product button[data-filter1]').addClass('product_b');
 				$('.filter > div').slideUp(400);
-				let filter = $(this).attr('filter');
+				let filter = $(this).attr('data-filter1');
 				setTimeout(function() {
-					$('.filter > div[filter = '+ filter +']').slideDown(600);
+					$('.filter > div[data-filter1 = '+ filter +']').slideDown(600);
 				},400);
 			}
 		}
