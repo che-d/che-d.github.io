@@ -60,7 +60,7 @@ $(document).ready(function($) {
 		  }
 		});
 	}
-	$('#small_img img').click(function() {
+	$('.small_img img').click(function() {
 		$('#big_img img').css('opacity', 0).animate({opacity:1},600);
 		$(this).css('opacity', 0).animate({opacity:1},600);
 		$('#profile').css('opacity', 0).animate({opacity:1},600);

@@ -26,7 +26,7 @@ $(document).ready(function() {
 			}
 		}
 	});
-	$('#small_img img').click(function() {
+	$('.small_img img').click(function() {
 		let smallHref = $(this).attr('src');
 		let bigHref = $('#big_img img').attr('src');
 		$('#big_img img').fadeIn(10000).attr('src', smallHref);
@@ -35,14 +35,14 @@ $(document).ready(function() {
 		let name_h3 = $('#profile').find('h3').html();
 		$('#profile').find('h3').html(name_p);
 		$(this).siblings('.name_employee').find('p').html(name_h3);
-		let text_employee = $(this).siblings('#text_employee').find('p').html();
+		let text_employee = $(this).siblings('.text_employee').find('p').html();
 		let profile_text = $('#profile_text').html();
 		$('#profile_text').html(text_employee);
-		$(this).siblings('#text_employee').find('p').html(profile_text);
-		let link_employee = $(this).siblings('#link_employee').html();
+		$(this).siblings('.text_employee').find('p').html(profile_text);
+		let link_employee = $(this).siblings('.link_employee').html();
 		let profile_link = $('#profile_link').html();
 		$('#profile_link').html(link_employee);
-		$(this).siblings('#link_employee').html(profile_link);
+		$(this).siblings('.link_employee').html(profile_link);
 		return false;
 	});
 	if (document.documentElement.clientWidth >= 768) { 
