@@ -1,23 +1,23 @@
 $(document).ready(function() {
-	$('.button[filter]').click(function (){
-		if($(this).attr('filter')=='all') {
-			if($(this).attr('val')=='off') {
-				$('.button[filter]').attr('val','off');
-				$(this).attr('val','on');
-				$('.button[filter]').removeClass('button_full');
+	$('.button[data-filter-1]').click(function (){
+		if($(this).attr('data-filter-1')=='all') {
+			if($(this).attr('data-val')=='off') {
+				$('.button[data-filter-1]').attr('data-val','off');
+				$(this).attr('data-val','on');
+				$('.button[data-filter-1]').removeClass('button_full');
 				$(this).addClass('button_full');
 				$('.filter > div').slideDown(600);
 			}
 		} else {
-			if($(this).attr('val')=='off') {
-				$('.button[filter]').attr('val','off');
-				$(this).attr('val','on');
-				$('.button[filter]').removeClass('button_full');
+			if($(this).attr('data-val')=='off') {
+				$('.button[data-filter-1]').attr('data-val','off');
+				$(this).attr('data-val','on');
+				$('.button[data-filter-1]').removeClass('button_full');
 				$(this).addClass('button_full');
-				$('.button[filter]').addClass('button_empty3');
+				$('.button[data-filter-1]').addClass('button_empty3');
 				$('.filter > div').slideUp(300);
-				let filter = $(this).attr('filter');
-				$('.filter > div[filter = '+ filter +']').slideDown(600);
+				let filter = $(this).attr('data-filter-1');
+				$('.filter > div[data-filter-1 = '+ filter +']').slideDown(600);
 			}
 		}
 	});
