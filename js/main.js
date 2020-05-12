@@ -1,9 +1,9 @@
 $(document).ready(function() {
 	$('.sample__wrap').hover(function() {
-		$(this).addClass('sample__wrap__hover');
+		$(this).addClass('sample__wrap_hover');
 		},
 			function() {
-		$(this).removeClass('sample__wrap__hover');
+		$(this).removeClass('sample__wrap_hover');
 	});
 });
 $(window).load(function() {
