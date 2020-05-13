@@ -29,7 +29,7 @@ $(document).ready(function() {
 	$('.profiles-description__img').click(function() {
 		let smallHref = $(this).attr('src');
 		let bigHref = $('.profiles-img_active').attr('src');
-		$('.profiles-img_active').fadeIn(10000).attr('src', smallHref);
+		$('.profiles-img_active').attr('src', smallHref);
 		$(this).attr('src',bigHref);
 		let profiles__name_hide = $(this).siblings('.profiles-description__name-wrap').find('p').html();
 		let profiles__name_active = $('.profiles-description__name_active').html();

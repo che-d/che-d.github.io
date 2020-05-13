@@ -23,8 +23,8 @@ $(document).ready(function($) {
 			let winHeight = $(window).height();
 			let scrollToElem = targetPos - winHeight;
 			if(winScrollTop > scrollToElem){
-			$('.product-description').fadeIn(1000);
-			$('.product-nav').fadeIn(2000);
+			$('.product-description').fadeIn(800);
+			$('.product-nav').fadeIn(900);
 		  }
 		});
 
