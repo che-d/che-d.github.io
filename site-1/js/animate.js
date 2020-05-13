@@ -1,8 +1,8 @@
 $(document).ready(function($) {
 	if (jQuery.browser.mobile === false) {
-		$('.header .container').addClass('animated fadeInDown');
-		$('.header-cont .col-xl-6').addClass('animated fadeInLeft');
-		$('.header-cont .col-xl-5').addClass('animated fadeInRight');
+		$('.header-nav__wrap').addClass('animated fadeInDown');
+		$('.header-content__description-wrap').addClass('animated fadeInLeft');
+		$('.header-content__video-wrap').addClass('animated fadeInRight');
 
 		$(window).scroll(function(){
 			let winScrollTop = $(this).scrollTop();
@@ -10,20 +10,20 @@ $(document).ready(function($) {
 			let winHeight = $(window).height();
 			let scrollToElem = targetPos - winHeight;
 			if(winScrollTop > scrollToElem){
-			$('.services .col-lg-5').addClass('animated fadeInLeft delay1');
-			$('.services .col-lg-3').addClass('animated fadeInRight delay1');
+			$('.services__description-wrap').addClass('animated fadeInLeft delay1');
+			$('.service-item').addClass('animated fadeInRight delay1');
 		  }
 		});
 
-		$('.product .col-xl-5, .product .col-lg-12').hide()
+		$('.product__description-wrap, .product__nav').hide()
 		$(window).scroll(function(){
 			let winScrollTop = $(this).scrollTop();
 			let targetPos = $('.product').offset().top;
 			let winHeight = $(window).height();
 			let scrollToElem = targetPos - winHeight;
 			if(winScrollTop > scrollToElem){
-			$('.product .col-xl-5').fadeIn(1000);
-			$('.product .col-lg-12').fadeIn(2000);
+			$('.product__description-wrap').fadeIn(1000);
+			$('.product__nav').fadeIn(2000);
 		  }
 		});
 
@@ -33,9 +33,9 @@ $(document).ready(function($) {
 			let winHeight = $(window).height();
 			let scrollToElem = targetPos - winHeight;
 			if(winScrollTop > scrollToElem){
-			$('.team .col-xl-5').addClass('animated fadeInLeft delay1');
-			$('.team #big_img').addClass('animated fadeInLeft delay2');
-			$('.team #description_profile').addClass('animated fadeInRight delay2');
+			$('.team__description-wrap').addClass('animated fadeInLeft delay1');
+			$('.profiles__img-wrap_active').addClass('animated fadeInLeft delay2');
+			$('.profiles__description-wrap').addClass('animated fadeInRight delay2');
 		  }
 		});
 		$(window).scroll(function(){
@@ -60,14 +60,14 @@ $(document).ready(function($) {
 		  }
 		});
 	}
-	$('.small_img img').click(function() {
-		$('#big_img img').css('opacity', 0).animate({opacity:1},600);
+	$('.profiles__description img').click(function() {
+		$('.profiles__img-wrap_active img').css('opacity', 0).animate({opacity:1},600);
 		$(this).css('opacity', 0).animate({opacity:1},600);
-		$('#profile').css('opacity', 0).animate({opacity:1},600);
+		$('.profiles__description_active').css('opacity', 0).animate({opacity:1},600);
 		$(this).css('opacity', 0).animate({opacity:1},600);
-		$('#profile_text').css('opacity', 0).animate({opacity:1},600);
+		$('.profiles__text_active').css('opacity', 0).animate({opacity:1},600);
 		$(this).css('opacity', 0).animate({opacity:1},600);
-		$('#profile_link').css('opacity', 0).animate({opacity:1},600);
+		$('.profiles__list_active').css('opacity', 0).animate({opacity:1},600);
 		$(this).css('opacity', 0).animate({opacity:1},600);
 	});
 });
