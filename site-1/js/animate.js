@@ -1,29 +1,30 @@
 $(document).ready(function($) {
 	if (jQuery.browser.mobile === false) {
 		$('.header-nav__wrap').addClass('animated fadeInDown');
-		$('.header-content__description-wrap').addClass('animated fadeInLeft');
+		$('.header-content-description').addClass('animated fadeInLeft');
 		$('.header-content__video-wrap').addClass('animated fadeInRight');
 
 		$(window).scroll(function(){
 			let winScrollTop = $(this).scrollTop();
-			let targetPos = $('.services').offset().top;
+			let targetPos = $('.service').offset().top;
 			let winHeight = $(window).height();
 			let scrollToElem = targetPos - winHeight;
 			if(winScrollTop > scrollToElem){
-			$('.services__description-wrap').addClass('animated fadeInLeft delay1');
+			$('.service-description').addClass('animated fadeInLeft delay1');
+			$('.service__button').addClass('animated fadeInLeft delay1');
 			$('.service-item').addClass('animated fadeInRight delay1');
 		  }
 		});
 
-		$('.product__description-wrap, .product__nav').hide()
+		$('.product-description, .product-nav').hide()
 		$(window).scroll(function(){
 			let winScrollTop = $(this).scrollTop();
 			let targetPos = $('.product').offset().top;
 			let winHeight = $(window).height();
 			let scrollToElem = targetPos - winHeight;
 			if(winScrollTop > scrollToElem){
-			$('.product__description-wrap').fadeIn(1000);
-			$('.product__nav').fadeIn(2000);
+			$('.product-description').fadeIn(1000);
+			$('.product-nav').fadeIn(2000);
 		  }
 		});
 
@@ -33,9 +34,9 @@ $(document).ready(function($) {
 			let winHeight = $(window).height();
 			let scrollToElem = targetPos - winHeight;
 			if(winScrollTop > scrollToElem){
-			$('.team__description-wrap').addClass('animated fadeInLeft delay1');
-			$('.profiles__img-wrap_active').addClass('animated fadeInLeft delay2');
-			$('.profiles__description-wrap').addClass('animated fadeInRight delay2');
+			$('.team-description').addClass('animated fadeInLeft delay1');
+			$('.profiles-img__wrap_active').addClass('animated fadeInLeft delay2');
+			$('.profiles-description__wrap').addClass('animated fadeInRight delay2');
 		  }
 		});
 		$(window).scroll(function(){
@@ -44,8 +45,8 @@ $(document).ready(function($) {
 			let winHeight = $(window).height();
 			let scrollToElem = targetPos - winHeight;
 			if(winScrollTop > scrollToElem){
-			$('.subscribe .col-xl-12').addClass('animated fadeInLeft delay1');
-			$('.subscribe .col-sm-12').addClass('animated fadeInRight delay2');
+			$('.subscribe-description').addClass('animated fadeInLeft delay1');
+			$('.subscribe-form').addClass('animated fadeInRight delay2');
 		  }
 		});
 		$(window).scroll(function(){
@@ -54,20 +55,20 @@ $(document).ready(function($) {
 			let winHeight = $(window).height();
 			let scrollToElem = targetPos - winHeight;
 			if(winScrollTop > scrollToElem){
-			$('.contact .col-xl-7').addClass('animated fadeInLeft delay1');
-			$('.contact .col-md-7').addClass('animated fadeInLeft delay2');
-			$('.contact .contact_info').addClass('animated fadeInRight delay2');
+			$('.contact-description__wrap').addClass('animated fadeInLeft delay1');
+			$('.contact-form__wrap').addClass('animated fadeInLeft delay2');
+			$('.contact-information__wrap_desktop').addClass('animated fadeInRight delay2');
 		  }
 		});
 	}
-	$('.profiles__description img').click(function() {
-		$('.profiles__img-wrap_active img').css('opacity', 0).animate({opacity:1},600);
+	$('.profiles-description__img').click(function() {
+		$('.profiles-img_active').css('opacity', 0).animate({opacity:1},600);
 		$(this).css('opacity', 0).animate({opacity:1},600);
-		$('.profiles__description_active').css('opacity', 0).animate({opacity:1},600);
+		$('.profiles-description_active').css('opacity', 0).animate({opacity:1},600);
 		$(this).css('opacity', 0).animate({opacity:1},600);
-		$('.profiles__text_active').css('opacity', 0).animate({opacity:1},600);
+		$('.profiles-description__text_active').css('opacity', 0).animate({opacity:1},600);
 		$(this).css('opacity', 0).animate({opacity:1},600);
-		$('.profiles__list_active').css('opacity', 0).animate({opacity:1},600);
+		$('.profiles-description__list_active').css('opacity', 0).animate({opacity:1},600);
 		$(this).css('opacity', 0).animate({opacity:1},600);
 	});
 });

@@ -17,18 +17,18 @@
 	</head>
 	<body>
 		<div id="toBack">
-		<a href="https://che-d.github.io" class="button-back">
-			<div class="button-back__wrap">
-				<p class="button-back__text">Return on general</p>
-			</div>
-		</a>
+			<a href="https://che-d.github.io" class="button-back">
+				<div class="button-back__wrap">
+					<p class="button-back__text">Return on general</p>
+				</div>
+			</a>
 		</div>
 		<header class="header-nav">
 			<div class="container header-nav__wrap">
 				<div class="row justify-content-center">
 					<div class="col-xl-12">
-						<button class="sndw-button sndw-button_outline_off">
-							<i class="fas fa-bars sndw-button__icon"></i>
+						<button class="sndw-button button_outline_off">
+						<i class="fas fa-bars sndw-button__icon"></i>
 						</button>
 						<nav class="menu">
 							<ul class="menu__list">
@@ -53,10 +53,12 @@
 		<header class="header-content">
 			<div class="container header-content__wrap">
 				<div class="row">
-					<div class="col-xl-6 header-content__description-wrap">
-						<h1 class="header-content__title">our strong<br />organaisation</h1>
-						<p class="header-content__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
-						<button class="header-content__button header-content__button_outline_off">Contact Us</button>
+					<div class="col-xl-6">
+						<div class="header-content-description">
+							<h1 class="header-content-description__title">our strong<br />organaisation</h1>
+							<p class="header-content-description__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
+							<button class="header-content-description__button button_outline_off">Contact Us</button>
+						</div>
 					</div>
 					<div class="col-xl-5 offset-xl-1">
 						<div class="header-content__video-wrap">
@@ -66,16 +68,18 @@
 				</div>
 			</div>
 		</header>
-		<section class="services">
-			<div class="container services__wrap">
+		<section class="service">
+			<div class="container service__wrap">
 				<div class="row">
-					<div class="col-lg-5 services__description-wrap">
-						<h2 class="services__title">do you know we can provide for you ?</h2>
-						<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
+					<div class="col-lg-5">
+						<div class="service-description">
+							<h2 class="service-description__title">do you know we can provide for you ?</h2>
+							<p class="service-description__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
+						</div>
 					</div>
 					<div class="col-6 col-lg-3 offset-lg-1 service-item">
 						<i class="service-item__icon fas fa-cog"></i>
-						<h3 class="service-item">Management</h3>
+						<h3 class="service-item__title">Management</h3>
 						<p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
 					</div>
 					<div class="col-6 col-lg-3 service-item">
@@ -84,7 +88,7 @@
 						<p class="service-item__text">Lorem ipsum dolor sitea amet, zixf conseit  adipi, seddi do eiusmod in didunt utlae ore etioe.Lorem ipsum new idolor sit amet,</p>
 					</div>
 					<div class="col-lg-5">
-						<button class="services__button services__button_outline_off">Learn More</button>
+						<button class="service__button button_outline_off">Learn More</button>
 					</div>
 					<div class="col-6 col-lg-3 offset-lg-1 service-item">
 						<i class="service-item__icon far fa-gem"></i>
@@ -102,23 +106,27 @@
 		<section class="product" id="product">
 			<div class="container product__wrap">
 				<div class="row justify-content-center">
-					<div class="col-xl-5 product__description-wrap">
-						<h2 class="product__title">feature products</h2>
-						<p class="product__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
-						<svg class="product__subline">
-							<line x1="0" y1="0" x2="132" y2="0" stroke-width="3" stroke="rgb(255,63,64)"/>
-							</svg>
+					<div class="col-xl-5">
+						<div class="product-description">
+							<h2 class="product-description__title">feature products</h2>
+							<p class="product-description__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
+							<svg class="subline subline_center">
+								<line x1="0" y1="0" x2="132" y2="0" stroke-width="3" stroke="rgb(255,63,64)"/>
+								</svg>
+							</div>
 						</div>
 					</div>
 					<div class="row justify-content-center">
-						<div class="col-lg-12 product__nav">
-							<button class="product__button product__button_active product__button_outline_off" data-val="on" data-filter-1="all">all</button>
-							<button class="product__button product__button_outline_off" data-val="off" data-filter-1="pt">print template</button>
-							<button class="product__button product__button_outline_off" data-val="off" data-filter-1="wt">web template</button>
-							<button class="product__button product__button_outline_off" data-val="off" data-filter-1="ui">user interface</button>
-							<button class="product__button product__button_outline_off" data-val="off" data-filter-1="mu">mock-up</button>
+						<div class="col-lg-12">
+							<div class="product-nav">
+								<button class="product-nav__button product-nav__button_active button_outline_off" data-val="on" data-filter-1="all">all</button>
+								<button class="product-nav__button button_outline_off" data-val="off" data-filter-1="pt">print template</button>
+								<button class="product-nav__button button_outline_off" data-val="off" data-filter-1="wt">web template</button>
+								<button class="product-nav__button button_outline_off" data-val="off" data-filter-1="ui">user interface</button>
+								<button class="product-nav__button button_outline_off" data-val="off" data-filter-1="mu">mock-up</button>
+							</div>
 						</div>
-						<div class="row justify-content-center img-filter">
+						<div class="row justify-content-center product__img_filter">
 							<div class="col-lg-3 col-md-4 col-sm-6" data-filter-1="pt">
 								<img class="product__img" src="img/product__img_1.jpg" alt="alt">
 							</div>
@@ -150,87 +158,89 @@
 			<section class="team" id="team">
 				<div class="container team__wrap">
 					<div class="row">
-						<div class="col-xl-5 team__description-wrap">
-							<h2 class="team__title">Meet our team</h2>
-							<p class="team__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
-							<svg class="team__subline">
+						<div class="col-xl-5">
+							<div class="team-description">
+							<h2 class="team-description__title">Meet our team</h2>
+							<p class="team-description__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+							<svg class="subline">
 								<line x1="0" y1="0" x2="132" y2="0" stroke-width="3" stroke="rgb(255,63,64)"/>
 								</svg>
 							</div>
+							</div>
 						</div>
 						<div class="row profiles">
-							<div class="col-xl-3 profiles__img-wrap_active">
-								<img class="profiles__img_active" src="img/team_img_1.jpg" alt="alt">
+							<div class="col-xl-3 profiles-img__wrap_active">
+								<img class="profiles-img_active" src="img/team_img_1.jpg" alt="alt">
 							</div>
-							<div class="col-xl-8 offset-xl-1 profiles__description-wrap">
+							<div class="col-xl-8 offset-xl-1 profiles-description__wrap">
 								<div class="row">
-									<div class="col-xl-8 profiles__description_active">
-										<h3 class="profiles__name_active">Mark Waugh</h3>
-										<p class="profiles__text_active">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
-										<div class="profiles__list_active">
-											<a class="profiles__link" href="#">Facebook</a>
-											<a class="profiles__link" href="#">Dribble</a>
-											<a class="profiles__link" href="#">Behance</a>
-											<a class="profiles__link" href="#">Twiter</a>
+									<div class="col-xl-8 profiles-description_active">
+										<h3 class="profiles-description__name_active">Mark Waugh</h3>
+										<p class="profiles-description__text_active">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+										<div class="profiles-description__list_active">
+											<a class="profiles-description__link" href="#">Facebook</a>
+											<a class="profiles-description__link" href="#">Dribble</a>
+											<a class="profiles-description__link" href="#">Behance</a>
+											<a class="profiles-description__link" href="#">Twiter</a>
 										</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-4 col-sm-6 col-lg-3 profiles__description">
-										<img class="profiles__img" src="img/team_img_2.jpg" alt="alt">
-										<div class="profiles__name-wrap">
-											<p class="profiles__name">Sokina Jue</p>
+									<div class="col-md-4 col-sm-6 col-lg-3 profiles-description_hide">
+										<img class="profiles-description__img" src="img/team_img_2.jpg" alt="alt">
+										<div class="profiles-description__name-wrap">
+											<p class="profiles-description__name">Sokina Jue</p>
 										</div>
-										<div class="profiles__text-wrap">
-											<p class="profiles__text">Lorem ipsum dolor sit amet, consectetur dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+										<div class="profiles-description__text-wrap">
+											<p class="profiles-description__text">Lorem ipsum dolor sit amet, consectetur dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
 										</div>
-										<div class="profiles__list">
-											<a class="profiles__link" href="#">Instagram</a>
-											<a class="profiles__link" href="#">VK</a>
-											<a class="profiles__link" href="#">Twiter</a>
-										</div>
-									</div>
-									<div class="col-md-4 col-sm-6 col-lg-3 profiles__description">
-										<img class="profiles__img" src="img/team_img_3.jpg" alt="alt">
-										<div class="profiles__name-wrap">
-											<p class="profiles__name">Veco Oun</p>
-										</div>
-										<div class="profiles__text-wrap">
-											<p class="profiles__text">Lorem .</p>
-										</div>
-										<div class="profiles__list">
-											<a class="profiles__link" href="#">Facebook</a>
-											<a class="profiles__link" href="#">Odnoklassniki</a>
-											<a class="profiles__link" href="#">VK</a>
-											<a class="profiles__link" href="#">Twiter</a>
+										<div class="profiles-description__list">
+											<a class="profiles-description__link" href="#">Instagram</a>
+											<a class="profiles-description__link" href="#">VK</a>
+											<a class="profiles-description__link" href="#">Twiter</a>
 										</div>
 									</div>
-									<div class="col-md-4 col-sm-6 col-lg-3 profiles__description">
-										<img class="profiles__img" src="img/team_img_4.png" alt="alt">
-										<div class="profiles__name-wrap">
-											<p class="profiles__name">Hrist Je</p>
+									<div class="col-md-4 col-sm-6 col-lg-3 profiles-description_hide">
+										<img class="profiles-description__img" src="img/team_img_3.jpg" alt="alt">
+										<div class="profiles-description__name-wrap">
+											<p class="profiles-description__name">Veco Oun</p>
 										</div>
-										<div class="profiles__text-wrap">
-											<p class="profiles__text">Lorem ipsum dolor sit amet, consectetu.</p>
+										<div class="profiles-description__text-wrap">
+											<p class="profiles-description__text">Lorem .</p>
 										</div>
-										<div class="profiles__list">
-											<a class="profiles__link" href="#">Coub</a>
-											<a class="profiles__link" href="#">Snapchat</a>
+										<div class="profiles-description__list">
+											<a class="profiles-description__link" href="#">Facebook</a>
+											<a class="profiles-description__link" href="#">Odnoklassniki</a>
+											<a class="profiles-description__link" href="#">VK</a>
+											<a class="profiles-description__link" href="#">Twiter</a>
 										</div>
 									</div>
-									<div class="col-md-4 col-sm-6 col-lg-3 profiles__description">
-										<img class="profiles__img" src="img/team_img_5.jpg" alt="alt">
-										<div class="profiles__name-wrap">
-											<p class="profiles__name">Mari Anu</p>
+									<div class="col-md-4 col-sm-6 col-lg-3 profiles-description_hide">
+										<img class="profiles-description__img" src="img/team_img_4.png" alt="alt">
+										<div class="profiles-description__name-wrap">
+											<p class="profiles-description__name">Hrist Je</p>
 										</div>
-										<div class="profiles__text-wrap">
-											<p class="profiles__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing</p>
+										<div class="profiles-description__text-wrap">
+											<p class="profiles-description__text">Lorem ipsum dolor sit amet, consectetu.</p>
 										</div>
-										<div class="profiles__list">
-											<a class="profiles__link" href="#">Facebook</a>
-											<a class="profiles__link" href="#">GitHub</a>
-											<a class="profiles__link" href="#">VK</a>
-											<a class="profiles__link" href="#">Twiter</a>
+										<div class="profiles-description__list">
+											<a class="profiles-description__link" href="#">Coub</a>
+											<a class="profiles-description__link" href="#">Snapchat</a>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-6 col-lg-3 profiles-description_hide">
+										<img class="profiles-description__img" src="img/team_img_5.jpg" alt="alt">
+										<div class="profiles-description__name-wrap">
+											<p class="profiles-description__name">Mari Anu</p>
+										</div>
+										<div class="profiles-description__text-wrap">
+											<p class="profiles-description__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing</p>
+										</div>
+										<div class="profiles-description__list">
+											<a class="profiles-description__link" href="#">Facebook</a>
+											<a class="profiles-description__link" href="#">GitHub</a>
+											<a class="profiles-description__link" href="#">VK</a>
+											<a class="profiles-description__link" href="#">Twiter</a>
 										</div>
 									</div>
 								</div>
@@ -241,16 +251,18 @@
 				<section class="subscribe">
 					<div class="container">
 						<div class="row">
-							<div class="col-xl-12 subscribe__description-wrap">
-								<h2 class="subscribe__title">Design tips, tricks, and freebies. Delivered weekly.</h2>
-								<p class="subscribe__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+							<div class="col-xl-12">
+								<div class="subscribe-description">
+									<h2 class="subscribe-description__title">Design tips, tricks, and freebies. Delivered weekly.</h2>
+									<p class="subscribe-description__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+								</div>
 							</div>
 						</div>
 						<div class="row justify-content-center">
-							<div class="col-sm-12 subscribe__form-wrap">
-								<form method="post" id="subscribe_form">
-								<input type="email" name="email" class="subscribe__email" placeholder="Email Adress..." required="" value="">
-								<button type="submit" class="subscribe__button subscribe__button_outline_off">subscribe</button>
+							<div class="col-sm-12">
+								<form method="post" id="subscribe-form" class="subscribe-form">
+									<input type="email" name="email" class="subscribe-form__email" placeholder="Email Adress..." required="" value="">
+									<button type="submit" class="subscribe-form__button button_outline_off">subscribe</button>
 								</form>
 							</div>
 						</div>
@@ -259,35 +271,39 @@
 				<section id="contact" class="contact">
 					<div class="container">
 						<div class="row">
-							<div class="col-xl-7">
-								<h2>get in touch</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-								<svg>
+							<div class="col-xl-7" class="contact-description__wrap">
+								<h2 class="contact__title contact-description__title">get in touch</h2>
+								<p class="contact__text contact-description__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+								<svg class="subline">
 									<line x1="0" y1="0" x2="132" y2="0" stroke-width="3" stroke="rgb(255,63,64)"/>
 									</svg>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-7">
-									<form method="post" id="contact_form" class="form">
+								<div class="col-md-7 contact-form__wrap">
+									<form method="post" id="contact-form" class="form contact-form">
 										<div class="row">
 											<div class="col-xl-6">
-												<input name="name" class="form_name" type="text" placeholder="Name" required="" value="">
+												<input name="name" class="contact-form__name" type="text" placeholder="Name" required="" value="">
 											</div>
 											<div class="col-xl-6">
-												<input name="email" class="form_email" type="email" placeholder="Your Mail" required="" value="">
+												<input name="email" class="contact-form__email" type="email" placeholder="Your Mail" required="" value="">
 											</div>
 										</div>
-										<textarea name="textarea" id="textarea" rows="10" placeholder="Type your message" required=""></textarea>
-										<button type="submit" class="form_button button">send message</button>
+										<textarea name="textarea" class="contact-form__comment" id="contact-form__comment" rows="10" placeholder="Type your message" required=""></textarea>
+										<button type="submit" class="contact-form__button button_outline_off">send message</button>
 									</form>
 								</div>
-								<div class="contact_info">
-									<div>
-										<h3>contact info</h3>
-										<p>Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
-										<p><a href="mailto:redwan@deviserweb.com">redwan@deviserweb.com</a></p>
-										<p><a href="tel:+8801761746373">(+88) 017 617 46373</a></p>
+								<div class="contact-information__wrap_desktop">
+									<div class="contact-information">
+										<h3 class="contact-information__title">contact info</h3>
+										<p class="contact-information__text">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
+										<p class="contact-information__text">
+											<a class="contact-information__link" href="mailto:redwan@deviserweb.com">redwan@deviserweb.com</a>
+										</p>
+										<p class="contact-information__text">
+											<a class="contact-information__link" href="tel:+8801761746373">(+88) 017 617 46373</a>
+										</p>
 									</div>
 								</div>
 							</div>
@@ -295,34 +311,34 @@
 					</section>
 					<footer class="footer">
 						<div class="container">
-							<div id="for_contact_info" class="row"></div>
+							<div class="row contact-information__wrap_mobile"></div>
 							<div class="row justify-content-between">
-								<div class="col-sm-6">
-									<p>© Copyright @Junaed 2020, All&#160;rights&#160;reserved.</p>
+								<div class="col-sm-6 footer-copyright">
+									<p class="footer-copyright__text">© Copyright @Junaed 2020, All&#160;rights&#160;reserved.</p>
 								</div>
-								<div class="col-sm-6">
-									<a href="#">
-										<span class="fa-stack fa-2x">
-											<i class="fas fa-circle fa-stack-2x"></i>
-											<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+								<div class="col-sm-6 social-media__wrap">
+									<a class="social-media__link" href="#">
+										<span class="fa-stack fa-2x social-media__icon-wrap">
+											<i class="fas fa-circle fa-stack-2x social-media__icon_back"></i>
+											<i class="fab fa-twitter fa-stack-1x fa-inverse social-media__icon_front"></i>
 										</span>
 									</a>
 									<a href="#">
-										<span class="fa-stack fa-2x">
-											<i class="fas fa-circle fa-stack-2x"></i>
-											<i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+										<span class="fa-stack fa-2x social-media__icon-wrap">
+											<i class="fas fa-circle fa-stack-2x social-media__icon_back"></i>
+											<i class="fab fa-linkedin-in fa-stack-1x fa-inverse social-media__icon_front"></i>
 										</span>
 									</a>
 									<a href="#">
-										<span class="fa-stack fa-2x">
-											<i class="fas fa-circle fa-stack-2x"></i>
-											<i class="fab fa-google-plus-g fa-stack-1x fa-inverse"></i>
+										<span class="fa-stack fa-2x social-media__icon-wrap">
+											<i class="fas fa-circle fa-stack-2x social-media__icon_back"></i>
+											<i class="fab fa-google-plus-g fa-stack-1x fa-inverse social-media__icon_front"></i>
 										</span>
 									</a>
 									<a href="#">
-										<span class="fa-stack fa-2x">
-											<i class="fas fa-circle fa-stack-2x"></i>
-											<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+										<span class="fa-stack fa-2x social-media__icon-wrap">
+											<i class="fas fa-circle fa-stack-2x social-media__icon_back"></i>
+											<i class="fab fa-facebook-f fa-stack-1x fa-inverse social-media__icon_front"></i>
 										</span>
 									</a>
 								</div>

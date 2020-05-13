@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('#subscribe_form').submit(function() {
+	$('#subscribe-form').submit(function() {
 		$.ajax({
 			type:"POST",
 			url:"mail.php",
@@ -10,7 +10,7 @@ $(document).ready(function() {
 		});
 		return false;
 	});
-	$('#contact_form').submit(function() {
+	$('#contact-form').submit(function() {
 		$.ajax({
 			type: "POST",
 			url: "mail.php",
