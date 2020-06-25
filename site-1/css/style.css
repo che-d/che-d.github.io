@@ -443,7 +443,9 @@ header {
 .social-media__wrap {
 	text-align: right;
 }
-.social-media__link {}
+.social-media__link:hover {
+	text-decoration: none;
+}
 .social-media__icon-wrap {
 	font-size: 1em;
 }
