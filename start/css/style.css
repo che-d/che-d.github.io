@@ -7,6 +7,9 @@ body {
 a {
 	color: #FFF96B;
 }
+a:hover {
+	color: #FFF96B;
+}
 /*header*/
 .header {}
 .menu {
