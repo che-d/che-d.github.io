@@ -54,7 +54,7 @@ $(document).ready(function() {
      */
     
      var ellipsis = ['', '.', '..', '...'];
-     var runEllipsis = true;
+     var runEllipsis = false;
      function animateEllipsis(el, count) {
        el.innerHTML = ellipsis[count%4];
        if(runEllipsis == true) {
