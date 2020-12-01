@@ -1,0 +1,64 @@
+@import url(../css/fonts.css);
+body {
+	background-color: #1F1E1C;
+	color: #FFF96B;
+	font-family: "RetroComputer";
+}
+a {
+	color: #FFF96B;
+}
+/*header*/
+.header {}
+.menu {
+	padding: 0;
+}
+.menu__list {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+.menu__item:first-child {
+	text-align: left;
+}
+.menu__item {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+}
+.menu__item:last-child {
+	text-align: right;
+}
+.menu__link {}
+/*primary*/
+.primary {
+	text-align: center;
+	margin-top: 20%;
+}
+.primary__title {
+	font-size: 38px;
+}
+.primary__title_link {}
+/*footer*/
+.footer {
+	bottom: 0;
+	position: absolute;
+}
+.footer__code {
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.footer__code_img {}	
+.footer__logo {
+	position: fixed;
+	right: 0;
+}
+.footer__logo_img {}
+/*media*/
+@media (min-width: 1400px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1200px;
+}
+@media (min-width: 1900px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1600px;
+}
