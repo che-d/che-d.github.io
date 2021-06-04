@@ -396,8 +396,8 @@ a:hover {text-decoration: none;}
 .difference__item .shap{
 	margin-bottom: 1rem;
 }
-.tett {
-	padding: 15px;
+.difference__item .tett {
+	padding: 20px;
 }
 /*.difference__item:after{
 	content: '';
