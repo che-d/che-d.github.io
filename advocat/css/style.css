@@ -357,16 +357,17 @@ a:hover {text-decoration: none;}
 .price .col-12{}
 .price h2{margin-bottom: 0;padding: 20px;}
 .difference{
-	background-image: url(../img/fancy_deboss.png);
+	/*background-image: url(../img/fancy_deboss.png);*/
 	box-shadow: 0 0px 15px -5px rgb(10 10 10);
 	margin-top: 40px;
 	padding: 20px 0;
+	background: #F7C67F;
 	position: relative;
 }
 .difference:after{
 	background: #F7C67F;
 	bottom: 0;
-	content: '';
+	/*content: '';*/
 	left: 0;
 	opacity: 0.8;
 	position: absolute;
@@ -388,6 +389,15 @@ a:hover {text-decoration: none;}
 	box-shadow: 0 0px 10px -5px rgb(10 10 10);
 	margin: 20px 0;
 	padding: 20px;
+}
+.difference__item h3{
+	margin-bottom: 1rem;
+}
+.difference__item .shap{
+	margin-bottom: 1rem;
+}
+.tett {
+	padding: 15px;
 }
 /*.difference__item:after{
 	content: '';
