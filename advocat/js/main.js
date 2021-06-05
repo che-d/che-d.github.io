@@ -45,7 +45,7 @@ $(document).ready(function() {
 	$('.header__button').click(
 		function() {
 			$(this).toggleClass("open");
-			$(this).parents('.webinar').children('.webinar__img_cover').children('.webinar__tizer').slideToggle(500);
+			$(this).parents('.header').children('.container').children('.header__bottom').slideToggle(500);
 			
 		});
 	$('.header__button').hover(
