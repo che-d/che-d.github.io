@@ -19,3 +19,17 @@
 	/*src:url(../fonts///.eot);*/
 	/*src:url(../fonts///.woff);*/
 }
+@font-face {
+	font-family:"YesevaOne-Regular";
+	src:url(../fonts/Yeseva_One/YesevaOne-Regular.ttf);
+	/*src:url(../fonts///.ttf);*/
+	/*src:url(../fonts///.eot);*/
+	/*src:url(../fonts///.woff);*/
+}
+@font-face {
+	font-family:"Forum-Regular";
+	src:url(../fonts/Forum/Forum-Regular.ttf);
+	/*src:url(../fonts///.ttf);*/
+	/*src:url(../fonts///.eot);*/
+	/*src:url(../fonts///.woff);*/
+}
