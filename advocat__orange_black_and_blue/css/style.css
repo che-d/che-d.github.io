@@ -107,7 +107,7 @@ a:hover {text-decoration: none;}
 	background-position: 0 -120px;
 	background-size: cover;
 	box-shadow: 0px 15px 15px -5px rgba(10, 10, 10, 0.8);
-	padding: 40px 0 0;
+	padding: 50px 0 0;
 	position: relative;
 	top: 73px;
 	margin-bottom: 60px;
@@ -140,7 +140,7 @@ a:hover {text-decoration: none;}
 .general-screen__img {
 	border-radius: 10px;
 	box-shadow: 0 0px 15px -5px rgb(10 10 10);
-	width: 72%;
+	width: 70%;
 }
 .general-screen__text_wrap {
 	color: #fff;
@@ -149,7 +149,7 @@ a:hover {text-decoration: none;}
 	font-weight: 600;
 	/*line-height: 2;*/
 	margin-bottom: 0.5rem;
-	/*margin-top: 5rem;*/
+	margin-top: 1rem;
 	font-size: 3rem;
 	padding: 20px;
 	text-shadow: -6px 1px black;
@@ -364,7 +364,7 @@ a:hover {text-decoration: none;}
 	/*background-color: #1a1a1a;*/
 	color: #fff;
 	background-color: rgba(0, 0, 0, .96);
-	/*background-color: rgb(19, 24, 61,.98);*/
+	background-color: rgb(19, 24, 61,.9);
 	border-radius: 10px;
 	box-shadow: 0 0px 15px -5px rgb(10 10 10);
 	display: flex;
