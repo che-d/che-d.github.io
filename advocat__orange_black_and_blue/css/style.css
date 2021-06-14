@@ -308,7 +308,7 @@ a:hover {text-decoration: none;}
 }
 .price:after,.review:after{
 	background: #F7C67F;
-	/*opacity: 0.8;*/
+	opacity: 0.6;
 }
 .general-screen .container,
 .first-call__wrap .container,
