@@ -12,3 +12,7 @@
  ExpiresByType text/html "access plus 1 day"
  ExpiresByType application/xhtml+xml "access plus 10 minutes"
 </ifModule>
+
+
+Redirect 301 /advocat__orange_black_and_blue/ https://che-d.github.io/advocat__orange_black_and_blue_v1/
+
