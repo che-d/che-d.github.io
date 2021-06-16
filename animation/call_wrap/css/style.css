@@ -10,7 +10,8 @@ a:hover{
 .telefone{
 	margin: auto;
 	position: fixed;
-	top: 50%;left: 50%;
+	top: 50%;
+	left: 50%;
 	transform: translateX(-50%);
 	width: 292px;
 }
@@ -19,8 +20,7 @@ a:hover{
 	position: relative;
 	z-index: 999;
 }
-.telefone__link{
-}
+.telefone__link{}
 .telefone__num_wrap{
 	background-color: #f9f9f9;
 	border-radius: 50px;
@@ -34,7 +34,7 @@ a:hover{
 }
 .telefone__num {
 	color: #1F1E1C;
-	margin:auto 15px;
+	margin: auto 15px;
 	position: relative;
 	z-index: 100;
 
@@ -52,6 +52,9 @@ a:hover{
 	position: relative;
 	width: 50px;
 	z-index: 101;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 .button_run_right{
 	animation-delay: 0s;
