@@ -40,6 +40,10 @@ a:hover{
 
 }
 .telefone__img{
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-name: pulse;
 	animation-delay: 0.5s;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
@@ -57,6 +61,11 @@ a:hover{
 	appearance: none;
 }
 .button_run_right{
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-name: button_run_right;
 	animation-delay: 0s;
 	animation-duration: 0.5s;
 	animation-fill-mode: both;
@@ -69,6 +78,11 @@ a:hover{
 	animation-name: tel_run_left;
 }
 .button_run_left{
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-name: button_run_left;
 	animation-delay: 0s;
 	animation-duration: 0.5s;
 	animation-fill-mode: both;
@@ -85,6 +99,11 @@ a:hover{
 	50%{transform: rotate(-135deg);}
 	100%{left: 80%;transform: rotate(-90deg);}
 }
+@-webkit-keyframes button_run_right {
+	0%{left: 0%;transform: rotate(0deg);}
+	50%{transform: rotate(-135deg);}
+	100%{left: 80%;transform: rotate(-90deg);}
+}
 @keyframes tel_run_left {
 	0%{right: 0px;}
 	40%{right: 0px;}
@@ -95,12 +114,22 @@ a:hover{
 	50%{transform: rotate(45deg);}
 	100%{left: 0%;transform: rotate(0deg);}
 }
+@-webkit-keyframes button_run_left {
+	0%{left: 80%;transform: rotate(-90deg);}
+	50%{transform: rotate(45deg);}
+	100%{left: 0%;transform: rotate(0deg);}
+}
 @keyframes tel_run_right {
 	0%{right: 50px;}
 	60%{right: 0px;}
 	100%{right: 0px;}
 }
 @keyframes pulse {
+	0% {transform: scale(0.95);box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);-webkit-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);-moz-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);}
+	70% {transform: scale(1);box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);-webkit-box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);-moz-box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);}
+	100% {transform: scale(0.95);box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);-webkit-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);-moz-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);}
+}
+@-webkit-keyframes pulse {
 	0% {transform: scale(0.95);box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);-webkit-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);-moz-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);}
 	70% {transform: scale(1);box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);-webkit-box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);-moz-box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);}
 	100% {transform: scale(0.95);box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);-webkit-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);-moz-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);}
