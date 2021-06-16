@@ -24,18 +24,20 @@ a:hover{
 	border-radius: 50px;
 	box-shadow: 0 0 5px -2px #fefefe;
 	cursor: pointer;
-	display: block;
+	/*display: block;*/
 	padding: 10px 20px;
 	position: relative;
 	transition: .3s;
 	z-index: 99;
 	background-color: #f9f9f9;
+	display: inline-flex;
 }
 .telefone__num {
 	margin:0 15px;
 	position: relative;
 	z-index: 100;
 	color: #1F1E1C;
+
 }
 .telefone__img{
 	background-color: #1F1E1C;
