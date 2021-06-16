@@ -1,0 +1,171 @@
+@import url(../css/fonts.css);
+body {
+	background-color: #c7ffff;
+	color: #FFF96B;
+}
+a:hover{
+	text-decoration: none;
+	color: #FFF96B;
+}
+.telefone{
+	margin: auto;
+	position: fixed;
+	top: 50%;left: 50%;
+	transform: translateX(-50%);
+}
+.telefone__wrap{
+	display: block;
+	position: relative;
+	z-index: 999;
+}
+.telefone__link{
+}
+.telefone__num_wrap{
+	border-radius: 50px;
+	box-shadow: 0 0 5px -2px #fefefe;
+	cursor: pointer;
+	display: block;
+	padding: 10px 20px;
+	position: relative;
+	transition: .3s;
+	z-index: 99;
+	background-color: #f9f9f9;
+}
+.telefone__num {
+	margin:0 15px;
+	position: relative;
+	z-index: 100;
+	color: #1F1E1C;
+}
+.telefone__img{
+	background-color: #1F1E1C;
+	border-radius: 100%;
+	fill: #FFF96B;
+	height: 50px;
+	padding: 10px;
+	width: 50px;
+	position: relative;
+	z-index: 101;
+	animation: pulse;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+
+	animation-delay: 0.5s;
+}
+.button_run_right{
+	animation-name: button_run_right;
+	animation-duration: 0.5s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+}
+.tel_run_left {
+	animation-name: tel_run_left;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+}
+.button_run_left{
+	animation-delay: 0s;
+	animation-name: button_run_left;
+	animation-iteration-count: 1;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+}
+.tel_run_right {
+	animation-name: tel_run_right;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+}
+@keyframes button_run_right {
+	0%{left: 0%;transform: rotate(0deg);}
+	50%{transform: rotate(-135deg);}
+	100%{left: 80%;transform: rotate(-90deg);}
+}
+@keyframes tel_run_left {
+	0%{right: 0px;}
+	40%{right: 0px;}
+	100%{right: 50px;}
+}
+@keyframes button_run_left {
+	0%{left: 80%;transform: rotate(-90deg);}
+	50%{transform: rotate(45deg);}
+	100%{left: 0%;transform: rotate(0deg);}
+}
+@keyframes tel_run_right {
+	0%{right: 50px;}
+	60%{right: 0px;}
+	100%{right: 0px;}
+}
+
+@keyframes pulse {
+	0% {transform: scale(0.95);box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);}
+	70% {transform: scale(1);box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);}
+	100% {transform: scale(0.95);box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social__list{list-style-type: none;padding: 0;margin: 0; flex-flow: column wrap;}
+.sosial__list_item{position: fixed; top: 0; color: #fff; z-index: 99;}
+.sosial__link{}
+.social__img_wrap_general{display: block; position: relative; z-index: 999;}
+.social__img_wrap_general:hover{
+	transform: rotate(270deg);
+}
+
+/*.social__img_wrap_general:hover, .social__list:hover{
+
+}*/
+
+.social__img_wrap_general:hover .social__img_active{
+	display: none;
+}
+.social__img_wrap_general:hover .social__img_close{
+	display: block;
+}
+.social__img_close{display: none;}
+.sosial__list_item_active{
+	display: block;
+	animation-name: show-1;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+.sosial__list_item_active:nth-child(2){
+	animation-name: show-2;
+}
+.sosial__list_item_active:nth-child(3){
+	animation-name: show-3;
+}
+.sosial__list_item_hide{
+	display: block;
+	animation-name: hide-1;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+.sosial__list_item_hide:nth-child(2){
+	animation-name: hide-2;
+}
+.sosial__list_item_hide:nth-child(3){
+	animation-name: hide-3;
+}
+@keyframes show-1 {0%{top: 0;opacity: 0;}75%{opacity: 1;}100%{top: -60px;}}
+@keyframes show-2 {0%{top: 0;opacity: 0;}75%{opacity: 1;}100%{top: -120px;}}
+@keyframes show-3 {0%{top: 0;opacity: 0;}75%{opacity: 1;}100%{top: -180px;}}
+@keyframes hide-1 {0%{top: -60px;opacity: 1;}100%{top: 0;opacity: 0;}}
+@keyframes hide-2 {0%{top: -120px;opacity: 1;}100%{top: 0;opacity: 0;}}
+@keyframes hide-3 {0%{top: -180px;opacity: 1;}100%{top: 0;opacity: 0;}}
