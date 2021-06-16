@@ -100,76 +100,8 @@ a:hover{
 	60%{right: 0px;}
 	100%{right: 0px;}
 }
-
 @keyframes pulse {
-	0% {transform: scale(0.95);box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);}
-	70% {transform: scale(1);box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);}
-	100% {transform: scale(0.95);box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);}
+	0% {transform: scale(0.95);box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);-webkit-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);-moz-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);}
+	70% {transform: scale(1);box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);-webkit-box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);-moz-box-shadow: 0 0 0 10px rgba(31, 30, 28, 0);}
+	100% {transform: scale(0.95);box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);-webkit-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);-moz-box-shadow: 0 0 0 0 rgba(31, 30, 28, 0);}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.social__list{list-style-type: none;padding: 0;margin: 0; flex-flow: column wrap;}
-.sosial__list_item{position: fixed; top: 0; color: #fff; z-index: 99;}
-.sosial__link{}
-.social__img_wrap_general{display: block; position: relative; z-index: 999;}
-.social__img_wrap_general:hover{
-	transform: rotate(270deg);
-}
-
-/*.social__img_wrap_general:hover, .social__list:hover{
-
-}*/
-
-.social__img_wrap_general:hover .social__img_active{
-	display: none;
-}
-.social__img_wrap_general:hover .social__img_close{
-	display: block;
-}
-.social__img_close{display: none;}
-.sosial__list_item_active{
-	display: block;
-	animation-name: show-1;
-	animation-duration: 1s;
-	animation-timing-function: ease;
-	animation-fill-mode: forwards;
-}
-.sosial__list_item_active:nth-child(2){
-	animation-name: show-2;
-}
-.sosial__list_item_active:nth-child(3){
-	animation-name: show-3;
-}
-.sosial__list_item_hide{
-	display: block;
-	animation-name: hide-1;
-	animation-duration: 1s;
-	animation-timing-function: ease;
-	animation-fill-mode: forwards;
-}
-.sosial__list_item_hide:nth-child(2){
-	animation-name: hide-2;
-}
-.sosial__list_item_hide:nth-child(3){
-	animation-name: hide-3;
-}
-@keyframes show-1 {0%{top: 0;opacity: 0;}75%{opacity: 1;}100%{top: -60px;}}
-@keyframes show-2 {0%{top: 0;opacity: 0;}75%{opacity: 1;}100%{top: -120px;}}
-@keyframes show-3 {0%{top: 0;opacity: 0;}75%{opacity: 1;}100%{top: -180px;}}
-@keyframes hide-1 {0%{top: -60px;opacity: 1;}100%{top: 0;opacity: 0;}}
-@keyframes hide-2 {0%{top: -120px;opacity: 1;}100%{top: 0;opacity: 0;}}
-@keyframes hide-3 {0%{top: -180px;opacity: 1;}100%{top: 0;opacity: 0;}}
