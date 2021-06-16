@@ -4,14 +4,15 @@ body {
 	color: #FFF96B;
 }
 a:hover{
-	text-decoration: none;
 	color: #FFF96B;
+	text-decoration: none;
 }
 .telefone{
 	margin: auto;
 	position: fixed;
 	top: 50%;left: 50%;
 	transform: translateX(-50%);
+	width: 292px;
 }
 .telefone__wrap{
 	display: block;
@@ -21,62 +22,61 @@ a:hover{
 .telefone__link{
 }
 .telefone__num_wrap{
+	background-color: #f9f9f9;
 	border-radius: 50px;
 	box-shadow: 0 0 5px -2px #fefefe;
 	cursor: pointer;
-	/*display: block;*/
+	display: block;
 	padding: 10px 20px;
 	position: relative;
 	transition: .3s;
 	z-index: 99;
-	background-color: #f9f9f9;
-	display: inline-flex;
 }
 .telefone__num {
-	margin:0 15px;
+	color: #1F1E1C;
+	margin:auto 15px;
 	position: relative;
 	z-index: 100;
-	color: #1F1E1C;
 
 }
 .telefone__img{
+	animation-delay: 0.5s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation: pulse;
 	background-color: #1F1E1C;
 	border-radius: 100%;
 	fill: #FFF96B;
 	height: 50px;
-	padding: 10px;
-	width: 50px;
 	height: 50px;
+	padding: 10px;
 	position: relative;
+	width: 50px;
 	z-index: 101;
-	animation: pulse;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-delay: 0.5s;
 }
 .button_run_right{
-	animation-name: button_run_right;
-	animation-duration: 0.5s;
 	animation-delay: 0s;
-	animation-iteration-count: 1;
+	animation-duration: 0.5s;
 	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-name: button_run_right;
 }
 .tel_run_left {
-	animation-name: tel_run_left;
 	animation-duration: 0.5s;
 	animation-fill-mode: both;
+	animation-name: tel_run_left;
 }
 .button_run_left{
 	animation-delay: 0s;
-	animation-name: button_run_left;
-	animation-iteration-count: 1;
 	animation-duration: 0.5s;
 	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-name: button_run_left;
 }
 .tel_run_right {
-	animation-name: tel_run_right;
 	animation-duration: 0.5s;
 	animation-fill-mode: both;
+	animation-name: tel_run_right;
 }
 @keyframes button_run_right {
 	0%{left: 0%;transform: rotate(0deg);}
