@@ -43,11 +43,10 @@ a:hover{
 	animation-delay: 0.5s;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
-	animation: pulse;
+	animation-name: pulse;
 	background-color: #1F1E1C;
 	border-radius: 100%;
 	fill: #FFF96B;
-	height: 50px;
 	height: 50px;
 	padding: 10px;
 	position: relative;
