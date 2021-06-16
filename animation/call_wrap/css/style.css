@@ -46,12 +46,12 @@ a:hover{
 	height: 50px;
 	padding: 10px;
 	width: 50px;
+	height: 50px;
 	position: relative;
 	z-index: 101;
 	animation: pulse;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
-
 	animation-delay: 0.5s;
 }
 .button_run_right{
