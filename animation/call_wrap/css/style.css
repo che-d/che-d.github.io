@@ -39,10 +39,6 @@ a:hover{
 	z-index: 100;
 
 }
-.div{
-	height: 50px;
-	width: 50px;
-}
 .telefone__img{
 	background-color: #1F1E1C;
 	border-radius: 100%;
@@ -57,26 +53,18 @@ a:hover{
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
 	position: relative;
-	-webkit-animation-delay: 0.5s;
+/*	-webkit-animation-delay: 0.5s;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-name: pulse;
 	animation-delay: 0.5s;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
-	animation-name: pulse;
+	animation-name: pulse;*/
+	box-shadow: 0 0 0 0 rgba(31, 30, 28, 0.7);
+	/*filter: drop-shadow(0 0 0 0 rgba(31, 30, 28, 0.7));*/
 }
-/*.telefone__num_wrap::after{
-	height: 50px;
-	background-color: #1F1E1C;
-	z-index: 102;
-	appearance: none;
-	width: 50px;
-	content: '';	
-}*/
 .button_run_right{
 	-webkit-animation-delay: 0s;
 	-webkit-animation-duration: 0.5s;
