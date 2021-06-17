@@ -40,14 +40,6 @@ a:hover{
 
 }
 .telefone__img{
-	-webkit-animation-delay: 0.5s;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-name: pulse;
-	animation-delay: 0.5s;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-name: pulse;
 	background-color: #1F1E1C;
 	border-radius: 100%;
 	fill: #FFF96B;
@@ -62,6 +54,25 @@ a:hover{
 	-moz-appearance: none;
 	appearance: none;
 }
+/*.telefone__num_wrap::after{
+	height: 50px;
+	background-color: #1F1E1C;
+	z-index: 102;
+	appearance: none;
+	width: 50px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	position: relative;
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-name: pulse;
+	animation-delay: 0.5s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-name: pulse;
+	content: '';	
+}*/
 .button_run_right{
 	-webkit-animation-delay: 0s;
 	-webkit-animation-duration: 0.5s;
