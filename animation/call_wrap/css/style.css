@@ -51,6 +51,8 @@ a:hover{
 	background-color: #1F1E1C;
 	border-radius: 100%;
 	fill: #FFF96B;
+	background-clip: border-box;
+	overflow: visible;
 	height: 50px;
 	padding: 10px;
 	position: relative;
