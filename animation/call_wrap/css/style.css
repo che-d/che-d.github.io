@@ -53,13 +53,6 @@ a:hover{
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-}
-/*.telefone__num_wrap::after{
-	height: 50px;
-	background-color: #1F1E1C;
-	z-index: 102;
-	appearance: none;
-	width: 50px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	position: relative;
@@ -71,6 +64,13 @@ a:hover{
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-name: pulse;
+}
+/*.telefone__num_wrap::after{
+	height: 50px;
+	background-color: #1F1E1C;
+	z-index: 102;
+	appearance: none;
+	width: 50px;
 	content: '';	
 }*/
 .button_run_right{
