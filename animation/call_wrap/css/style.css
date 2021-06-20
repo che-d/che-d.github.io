@@ -2,7 +2,7 @@
 body {background-color: #816EFA;color: #FFF96B;}
 a:hover{color: #FFF96B;text-decoration: none;}
 .telefone{left: 50%;margin: auto;position: fixed;top: 50%;transform: translateX(-50%);width: 292px;}
-.telefone__item{display: block;position: relative;z-index: 999;}
+.telefone__item{border-radius: 50px;box-shadow: 0 0 15px 0px rgb(0 0 0);display: block;position: relative;z-index: 999;}
 .telefone__link{}
 .telefone__wrap{background-color: #f9f9f9;border-radius: 50px;box-shadow: 0 0 5px -2px #fefefe;cursor: pointer;display: flex;padding: 10px 20px;position: relative;transition: .3s;z-index: 99;}
 .telefone__num {color: #1F1E1C;margin: auto 15px;position: relative;z-index: 100;}
