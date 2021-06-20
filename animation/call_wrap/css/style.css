@@ -15,13 +15,13 @@ a:hover{
 	transform: translateX(-50%);
 	width: 292px;
 }
-.telefone__wrap{
+.telefone__item{
 	display: block;
 	position: relative;
 	z-index: 999;
 }
 .telefone__link{}
-.telefone__num_wrap{
+.telefone__wrap{
 	background-color: #f9f9f9;
 	border-radius: 50px;
 	box-shadow: 0 0 5px -2px #fefefe;
@@ -39,7 +39,7 @@ a:hover{
 	z-index: 100;
 
 }
-.telefone__img_w{
+.telefone__img_wrap{
 	/*background-color: #1F1E1C;*/
 	border-radius: 100%;
 	/*fill: #FFF96B;*/
@@ -78,7 +78,7 @@ margin-right: 20px;
 -khtml-border-radius: 40px;
 border-radius: 40px;*/
 }
-.telefone__img_w:not(:hover).telefone__img_w:after {
+.telefone__img_wrap:not(:hover).telefone__img_wrap:after {
 	content: "";
 	position: absolute;
 	width: 100%;
