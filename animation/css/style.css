@@ -1,6 +1,7 @@
 a:hover{text-decoration: none;}
+.item{height: 350px;padding: 50px; width: 500px;}
 /*~~~~~~~~~~~~~~~~~~~~~~ child - 1 ~~~~~~~~~~~~~~~~~~~~~~*/
-.item:nth-child(1){background-color: #816EFA;color: #FFF96B;height: 350px;padding: 50px; width: 500px;}
+.item:nth-child(1){background-color: #816EFA;color: #FFF96B;}
 .telefone a:hover{color: #FFF96B;text-decoration: none;}
 .telefone{margin: auto;position: relative;width: 292px; transform: translateY(100%);}
 .telefone__item{border-radius: 50px;box-shadow: 0 0 15px 0px rgb(0 0 0);display: block;position: relative;z-index: 999;}
