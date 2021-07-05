@@ -9,6 +9,7 @@ a {
 }
 a:hover {text-decoration: none; text-shadow: none;}
 .header{
+	padding-top: 10px;
 	position: fixed;
 	width: 100%;
 	z-index: 99;
@@ -19,6 +20,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 .header__background{
 	background-color: rgba(0, 0, 0, .96);
 	box-shadow: inset 4px 0px 20px 0 rgb(15 20 10);
+	padding-top: 0;
 }
 /*.header, */.footer{
 	background-color: rgba(0, 0, 0, .96);
@@ -226,7 +228,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 }
 .about__card_s p{
 	font-family: "Bitter-Regular";
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 }
 .about__card_s span{
 	font-size: 5rem;
