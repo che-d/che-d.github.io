@@ -221,7 +221,7 @@ a:hover{}
 }
 .parallax__ship{
 	animation: ship 4s 0.1s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-	background-image: url('../img/ship1.png');
+	background-image: url('../img/ship.png');
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	background-size: auto 101%;
