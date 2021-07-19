@@ -5,7 +5,7 @@ body{
 }
 a {
 	color: #FFB242;
-	font-size: 0.9rem;
+	font-size: 16px;
 	transition: .3s;
 }
 a:hover {text-decoration: none; text-shadow: none;}
@@ -124,6 +124,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 	box-shadow: 0px 15px 15px -5px rgba(19, 24, 61,.8);
 	padding: 123px 0 0;
 	position: relative;
+	height: 100vh;
 	/*top: 73px;*/
 	margin-bottom: 60px;
 }
@@ -140,17 +141,18 @@ a:hover {text-decoration: none; text-shadow: none;}
 }
 .general-screen__left p{
 	color: #fff;
-	font-size: 1.2rem;
-	margin: 0;
+	font-size: 24px;
+	margin-bottom: 10px;
 }
 .general-screen__left a{
-	font-size: 20px;
+	font-size: 16px;
 }
 .general-screen__left a:hover{
 	color: #fff;
 }
 .general-screen__img_wrap {
-	margin-bottom: 1rem;
+	margin-top: 10%;
+	margin-bottom: 30px;
 }
 .general-screen__img {
 	border-radius: 10px;
@@ -164,7 +166,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 	font-weight: 600;
 	/*line-height: 2;*/
 	margin-bottom: 0.5rem;
-	margin-top: 1rem;
+	margin-top: 5%;
 	font-size: 3rem;
 	padding: 20px;
 	text-shadow: -6px 1px black;
@@ -184,7 +186,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 .general-screen__button {
 	/*margin: 2.5rem 0;*/
 	position: absolute;
-	bottom: 15%;
+	bottom: 5%;
 	left: 33%;
 	text-align: center;
 
