@@ -249,7 +249,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 }
 .about__card_b {
 	border-radius: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	padding: 30px 50px;
 	transition: .3s;
 	font-family: "Bitter-Regular";
@@ -260,7 +260,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 	/*background-image: url(../img/double-bubble-outline.png);*/
 	/*box-shadow: 0px 19px 25px 5px rgba(10, 10, 10, .8);*/
 	/*position: relative;*/
-	padding-top: 30px;
+	padding-top: 80px;
 }
 /*.about__card_b_wrap:after{
 	background: #FFB242;
@@ -283,7 +283,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 	height: 100%;
 }
 .about__card_b_img{
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 	text-align: center;
 }
 .about__card_b_img img{
