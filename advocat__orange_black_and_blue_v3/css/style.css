@@ -120,7 +120,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 	/*background-image: url(../img/pexels-sora-shimazaki-5668473.webp);*/
 	background-image: url(../img/foto1.jpeg);
 	/*background-position: 0 -120px;*/
-	background-position: 0 0px;
+	background-position: 0 -50px;
 	background-size: cover;
 	box-shadow: 0px 15px 15px -5px rgba(19, 24, 61,.8);
 	padding: 123px 0 0;
@@ -166,11 +166,11 @@ a:hover {text-decoration: none; text-shadow: none;}
 	/*font-style: italic;*/
 	font-weight: 600;
 	/*line-height: 2;*/
-	margin-bottom: 0.5rem;
-	margin-top: 5%;
-	font-size: 3rem;
+	margin-bottom: 4rem;
+	/*margin-top: 5%;*/
+	font-size: 2.8rem;
 	padding: 20px;
-	text-shadow: -6px 1px black;
+	text-shadow: -4px 1px black;
 	/*text-align: left;*/
 }
 .general-screen__text_wrap span{
@@ -184,10 +184,14 @@ a:hover {text-decoration: none; text-shadow: none;}
 	font-size: 1rem;
 
 }
+.general-screen__info{
+	float: left;
+	text-shadow: -1px 1px #000;
+}
 .general-screen__button {
 	/*margin: 2.5rem 0;*/
-	position: absolute;
-	bottom: 5%;
+	/*position: absolute;*/
+	bottom: -15%;
 	left: 33%;
 	text-align: center;
 
