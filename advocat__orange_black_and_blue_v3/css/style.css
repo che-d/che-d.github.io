@@ -167,7 +167,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 	font-weight: 600;
 	/*line-height: 2;*/
 	margin-bottom: 4rem;
-	/*margin-top: 5%;*/
+	margin-top: 5%;
 	font-size: 2.8rem;
 	padding: 20px;
 	text-shadow: -4px 1px black;
@@ -324,7 +324,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 	z-index: 1;
 }
 .general-screen:after{
-	opacity: 0.25;
+	opacity: 0.20;
 }
 .difference:after{
 	background: #FFB242;
