@@ -350,7 +350,8 @@ a:hover {text-decoration: none; text-shadow: none;}
 	margin-bottom: 2rem;
 }
 .services__item{
-	background-color: rgba(0, 0, 0, .96);
+	/*background-color: rgba(0, 0, 0, .96);*/
+	background-color: #FFB242;
 	border-radius: 10px;
 	box-shadow: 0 0px 10px -5px rgb(10 10 10);
 	color: #fff;
@@ -771,6 +772,15 @@ a:hover {text-decoration: none; text-shadow: none;}
 	.review__text {
 		font-size: 14px
 	}
+	.review__wrap {
+		margin: auto 20px;
+	}
+	.carousel-control-prev,.carousel-control-next {
+		display: none;
+	}
+	.header__button {
+		margin: auto;
+	}
 }
 @media (max-width: 460px) {
 	.header__title h1{
@@ -782,7 +792,7 @@ a:hover {text-decoration: none; text-shadow: none;}
 	.general-screen__text_wrap{
 		font-size: 1.4rem;
 	}
-	.first-call__text {
+	.first-call__text,.services__item_button a {
 		font-size: 18px;
 	}
 	.about__card_s p {
@@ -791,9 +801,46 @@ a:hover {text-decoration: none; text-shadow: none;}
 	.services__item_b_text_d{
 		font-size: 19px;
 	}
+	.review h2 {
+		font-size: 1.5rem;	
+	}
+	.about__card_b{
+		padding: 30px 10px;	
+	}
 
 }
 
+@media (max-width: 380px) {
+	.about__card_s span, .about__card_s_year p:first-child {
+		font-size: 26px;
+	}
+	.general-screen__text_wrap {
+		font-size: 18px;
+	}
+	.general-screen__img,.services__item_button a{
+		width: 100%;
+	}
+	.about__card_s p,.button_adv a {
+		font-size: 16px;
+	}
+	.services__item_b_text_d {
+		font-size: 15px;
+	}
+	.services__item_large p {
+		font-size: 14px;
+	}
+	.about h2, .price h2, .services h2, .review h2,.review__social_text,.general-screen__left p {
+		font-size: 20px;	
+	}
+	.review__social__img{width: 20px;height: 20px;}
+	.review__social__img_yanedex{width: 60px;}
+	.review__social__img_google{}
+	.review__social__img_2gis{width: 60px;}
+	.animation__button a:before {
+		height: 390%;
+		top: -150%;
+	}
+}
 .delay1 {
 	-moz-animation-delay: .1s;
 	-moz-transition-delay: .1s;
