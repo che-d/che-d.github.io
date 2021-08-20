@@ -2,7 +2,10 @@ a:hover{text-decoration: none;}
 .item{float: left;height: 350px;padding: 50px; width:33.333333%;}
 @media (max-width: 1280px){.item{width: 100%;}}
 /*~~~~~~~~~~~~~~~~~~~~~~ child - 1 ~~~~~~~~~~~~~~~~~~~~~~*/
-.item:nth-child(1){background-color: #816EFA;color: #FFF96B;}
+.item{background-color: #816EFA;color: #FFF96B;}
+.item:hover > div{
+	/*transform: scale(1.01);*/
+}
 .telefone a:hover{color: #FFF96B;text-decoration: none;}
 .telefone{margin: auto;position: relative;width: 292px; transform: translateY(100%);}
 .telefone__item{border-radius: 50px;box-shadow: 0 0 15px 0px rgb(0 0 0);display: block;position: relative;z-index: 999;}
@@ -63,3 +66,29 @@ a:hover{text-decoration: none;}
 	100%{-webkit-transform: scale(1.6);opacity: 0;}
 }
 /*~~~~~~~~~~~~~~~~~~~~~~ child - 2 ~~~~~~~~~~~~~~~~~~~~~~*/
+.item-2{
+	color: transparent;
+	background-image: url(../img/item-2.png);
+	background-position: 0 50%;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~ child - 3 ~~~~~~~~~~~~~~~~~~~~~~*/
+.item-3{
+	color: transparent;
+	background-image: url(../img/item-3.png);
+	background-position: 0 50%;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~ child - 4 ~~~~~~~~~~~~~~~~~~~~~~*/
+.item-4{
+	color: transparent;
+	background-image: url(../img/item-4.png);
+	background-position: 0 50%;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
