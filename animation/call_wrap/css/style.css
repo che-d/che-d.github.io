@@ -16,12 +16,12 @@ a:hover{color: #FFF96B;text-decoration: none;}
 @keyframes button_run_right {
 	0%{left: 0%;transform: rotate(0deg);}
 	50%{transform: rotate(-135deg);}
-	100%{left: 80%;transform: rotate(-90deg);}
+	100%{left: 81%;transform: rotate(-90deg);}
 }
 @-webkit-keyframes button_run_right {
 	0%{left: 0%;transform: rotate(0deg);}
 	50%{transform: rotate(-135deg);}
-	100%{left: 80%;transform: rotate(-90deg);}
+	100%{left: 81%;transform: rotate(-90deg);}
 }
 @keyframes tel_run_left {
 	0%{right: 0px;}
