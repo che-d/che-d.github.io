@@ -1,0 +1,97 @@
+@import url(../css/fonts.css);
+body {
+	background: #f8b195;
+	background: -o-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	background: -webkit-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	background: linear-gradient(to top right, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	color: #fff;
+	cursor: default;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b195', endColorstr='#72519b',GradientType=1 );
+	font-family: "BenderRegular";
+	text-align: center;
+}
+.header {
+	margin: 40px 0;
+}
+.header__title {
+	font-family: "BenderBold";
+}
+.sample {
+	padding: 50px 0;
+}
+.sample__link {
+    /*text-align: center;*/
+}
+.sample__link:hover .sample__title {
+    display: block;
+}
+.sample__wrap {
+	border-radius: 25px;
+	margin-bottom: 30px;
+	overflow: hidden; 
+	position: relative;
+	text-align: center;
+	transition: .15s;
+}
+.sample__wrap_hover {
+	transform: scale(1.1);
+	transition: transform .5s;
+	z-index: 1;
+}
+.sample__img {
+	width: 100%;
+}
+.sample__wrap_box-sh_right {
+	box-shadow: 5px 0px 30px -5px rgba(0,0,0,0.7);
+}
+.sample__wrap_box-sh_left {
+	box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.7);
+}
+.sample__title {
+	background-color: rgba(0,0,0,0.25);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	display: none;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #fff;
+}
+.sample__text {
+	font-family: "BenderRegular";
+	font-size: 26px;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+@media (min-width: 1601px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1368px;
+	}
+}
+@media (min-width: 2048px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1520px;
+	}
+}
+@media (min-width: 4096px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 2868px;
+	}
+}

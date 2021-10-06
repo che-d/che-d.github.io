@@ -1,0 +1,28 @@
+
+@media (min-width: 1601px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1368px;
+	}
+}
+@media (min-width: 2048px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1520px;
+	}
+}
+@media (min-width: 4096px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 2868px;
+	}
+}

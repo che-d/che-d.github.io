@@ -1,0 +1,30 @@
+@font-face {
+	font-family:"OpenSans-Bold";
+	src:url(../fonts/OpenSans-Bold/OpenSans-Bold.ttf);
+	src:url(../fonts/OpenSans-Bold/OpenSans-Bold.otf);
+	src:url(../fonts/OpenSans-Bold/OpenSans-Bold.woff);
+}
+@font-face {
+	font-family:"OpenSans-ExtraBold";
+	src:url(../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.ttf);
+	src:url(../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.otf);
+	src:url(../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.woff);
+}
+@font-face {
+	font-family:"OpenSans-Regular";
+	src:url(../fonts/OpenSans-Regular/OpenSans-Regular.ttf);
+	src:url(../fonts/OpenSans-Regular/OpenSans-Regular.otf);
+	src:url(../fonts/OpenSans-Regular/OpenSans-Regular.woff);
+}
+@font-face {
+	font-family:"OpenSans-Semibold";
+	src:url(../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf);
+	src:url(../fonts/OpenSans-Semibold/OpenSans-Semibold.otf);
+	src:url(../fonts/OpenSans-Semibold/OpenSans-Semibold.woff);
+}
+@font-face {
+	font-family:"OpenSans-Italic";
+	src:url(../fonts/OpenSans-Italic/OpenSans-Italic.ttf);
+	src:url(../fonts/OpenSans-Italic/OpenSans-Italic.otf);
+	src:url(../fonts/OpenSans-Italic/OpenSans-Italic.woff);
+}

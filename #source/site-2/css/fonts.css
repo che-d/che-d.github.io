@@ -1,0 +1,30 @@
+@font-face {
+	font-family:"OpenSans-Bold";
+	src:url(../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold.ttf);
+	src:url(../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold.woff);
+	src:url(../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold.otf);
+}
+@font-face {
+	font-family:"OpenSans-Regular";
+	src:url(../fonts/OpenSans/OpenSans-Regular/OpenSans-Regular.ttf);
+	src:url(../fonts/OpenSans/OpenSans-Regular/OpenSans-Regular.woff);
+	src:url(../fonts/OpenSans/OpenSans-Regular/OpenSans-Regular.otf);
+}
+@font-face {
+	font-family:"OpenSans-Light";
+	src:url(../fonts/OpenSans/OpenSans-Light/OpenSans-Light.ttf);
+	src:url(../fonts/OpenSans/OpenSans-Light/OpenSans-Light.woff);
+	src:url(../fonts/OpenSans/OpenSans-Light/OpenSans-Light.otf);
+}
+@font-face {
+	font-family:"OpenSans-Semibold";
+	src:url(../fonts/OpenSans/OpenSans-Semibold/OpenSans-Semibold.ttf);
+	src:url(../fonts/OpenSans/OpenSans-Semibold/OpenSans-Semibold.woff);
+	src:url(../fonts/OpenSans/OpenSans-Semibold/OpenSans-Semibold.otf);
+}
+@font-face {
+	font-family:"RobotoBold";
+	src:url(../fonts/Roboto/RobotoBold/RobotoBold.ttf);
+	src:url(../fonts/Roboto/RobotoBold/RobotoBold.eot);
+	src:url(../fonts/Roboto/RobotoBold/RobotoBold.woff);
+}
