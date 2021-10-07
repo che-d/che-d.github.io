@@ -1,0 +1,24 @@
+@keyframes pop-up__block_show {
+	0% {
+	}
+	75% {
+		transform: scale(0.5);
+	}
+	100% {
+		top:15%;
+		transform: scale(1);
+	}
+}
+@keyframes pop-up__block_hide {
+	0% {
+		top:15%;
+		transform: scale(1);
+	}
+	25% {
+		top:15%;
+		transform: scale(0.5);
+	}
+	100% {
+		top:100%;
+	}
+}
