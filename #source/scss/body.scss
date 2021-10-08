@@ -46,9 +46,25 @@ a:hover{
 .sites {
 	padding: 50px 0;
 }
+.sites__row{
+	display: inline-block;
+}
+.sites__cover:nth-child(odd){
+	float: left;
+
+}
+.sites__cover:nth-child(even){
+	float: right;
+
+}
+.sites__cover{
+	width: calc(50% - 30px);
+	margin: 0 15px;
+}
 .sites__link {
     /*text-align: center;*/
 }
+
 .sites__link:hover .pop-up__title,
 .pop-up__link:hover .pop-up__title {
     opacity: 1;
