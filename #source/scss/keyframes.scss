@@ -45,3 +45,27 @@
 		top:100%;
 	}
 }
+@keyframes pop-up__block_show_m {
+	0% {
+	}
+	75% {
+		transform: scale(0.5);
+	}
+	100% {
+		top:5%;
+		transform: scale(1);
+	}
+}
+@keyframes pop-up__block_hide_m {
+	0% {
+		top:5%;
+		transform: scale(1);
+	}
+	25% {
+		top:5%;
+		transform: scale(0.5);
+	}
+	100% {
+		top:100%;
+	}
+}

@@ -23,7 +23,6 @@
 	padding: 50px 0;
 }
 .sites__row{
-	// margin: 0 -15px;
 	display: inline-block;
 	width: 100%;
 }
@@ -83,14 +82,13 @@
 .sites__show{
 	animation: sites__show .8s both;
 }
-.sites__cover:nth-child(6){
-	animation-delay: .5s;
-}
-.sites__cover:nth-child(7){
-	animation-delay: .9s;
-}
-.sites__cover:nth-child(8){
-	animation-delay: 1.3s;
+@for $i from 1 to 5 {
+  $child: $i + 5;
+  $delay: $i * 0.4 + 0.1;
+
+  .sites__cover:nth-child(#{$child}) {
+	animation-delay: #{$delay}s;
+  }
 }
 .sites__button_hide{
 	animation: sites__button_hide .8s both;

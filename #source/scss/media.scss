@@ -7,6 +7,13 @@
 	.header__menu{
 		display: none;
 	}
+	.pop-up p,
+	.pop-up li{
+		font-size: 16px;
+	}
+	.pop-up h2{
+		font-size: 1.5rem;
+	}
 }
 @media (max-width: 991px) {
 	.sites .sites__cover{
@@ -19,7 +26,9 @@
 		box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.7);
 	}
 	.pop-up {
-		padding: 50px;
+		left: 5%;
+		padding: 60px 15px;
+		width: 90%;
 	}
 	.pop-up__top {
 		display: inherit;
@@ -30,6 +39,15 @@
 		width: 100%;
 	}
 	.pop-up__right{}
+	.pop-up_show{
+		animation: pop-up__block_show_m .8s both;
+	}
+	.pop-up_hide {
+		animation: pop-up__block_hide_m .8s both;
+	}
+	.pop-up__title {
+		display: none;
+	}
 }
 @media (min-width: 1601px) {
 	.container,
