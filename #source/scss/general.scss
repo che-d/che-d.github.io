@@ -1,0 +1,39 @@
+body {
+	background: #f8b195;
+	background: -o-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	background: -webkit-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	background: linear-gradient(to top right, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	color: #fff;
+	cursor: default;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b195', endColorstr='#72519b',GradientType=1 );
+	font-family: "BenderRegular";
+	font-size: 25px;
+}
+a,button {
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	color:#fff;
+	transition: .3s;
+}
+a:hover,
+button:hover{
+	background-size: 100% 2px;
+	color:#fff;
+	text-decoration: none;
+}
+button{
+	padding: 0;
+}
+a, 
+a:active, 
+a:focus,
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+p{
+	margin: 0;
+}

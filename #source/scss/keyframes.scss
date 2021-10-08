@@ -1,3 +1,26 @@
+@keyframes sites__button_hide {
+	0% {
+		opacity: 1;
+	}
+	90% {
+	}
+	100% {
+		display: none;
+		opacity: 0;
+	}
+}
+@keyframes sites__show {
+	0% {
+		margin-top: 100%;
+		opacity: 0;
+	}
+	90% {
+	}
+	100% {
+		margin-top: 0;
+		opacity: 1;
+	}
+}
 @keyframes pop-up__block_show {
 	0% {
 	}
