@@ -26,8 +26,10 @@
 		box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.7);
 	}
 	.pop-up {
+		height: 90%;
 		left: 5%;
-		padding: 60px 15px;
+		overflow: auto;
+		padding: 60px 15px 15px 15px;
 		width: 90%;
 	}
 	.pop-up__top {
@@ -47,6 +49,9 @@
 	}
 	.pop-up__title {
 		display: none;
+	}
+	.sites__wrap:hover {
+	transform: scale(1);
 	}
 }
 @media (min-width: 1601px) {
