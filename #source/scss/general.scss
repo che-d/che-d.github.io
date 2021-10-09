@@ -1,13 +1,28 @@
 body {
-	background: #f8b195;
-	background: -o-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
-	background: -webkit-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
-	background: linear-gradient(to top right, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	// background: #f8b195;
+	// background: -o-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	// background: -webkit-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	// background: linear-gradient(to top right, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
 	color: #fff;
 	cursor: default;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b195', endColorstr='#72519b',GradientType=1 );
 	font-family: "BenderRegular";
 	font-size: 25px;
+}
+.body__bgc{
+	background: #f8b195;
+	background: -o-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	background: -webkit-linear-gradient(bottom left, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	background: linear-gradient(to top right, #f8b195 0%, #f67280 25%, #c06c84 50%, #6c5b7b 75%, #72519b 100%);
+	cursor: default;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b195', endColorstr='#72519b',GradientType=1 );
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	transition: .8s;
+	width: 100%;
+	z-index: -1;
 }
 a,button {
 	background-image: linear-gradient(currentColor, currentColor);
